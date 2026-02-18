@@ -5,7 +5,7 @@
 <a href="https://www.embarcadero.com/products/delphi" target="_blank">
   <img src="https://www.embarcadero.com/images/logos/delphi-logo-128.webp"
        alt="Modern Delphi Logo"
-       width="128" />
+       width="64" />
 </a>
 
 <br/>
