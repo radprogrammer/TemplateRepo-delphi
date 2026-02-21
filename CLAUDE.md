@@ -5,12 +5,13 @@
 
 @.delphi/style-guide.md
 
-> **Updating the style guide:** The imported file above is pinned to a specific commit.
-> To adopt the latest version, run:
+@.delphi/code-formatting-guide.md
+
+> **Updating the style guide:** The imported files above are pinned to a specific commit.
+> To adopt the latest version, run (after reviewing changelog):
 > ```
 > git submodule update --remote .delphi
 > ```
-> Review the changelog in `.delphi/style-guide.md` before updating in an active project.
 
 ---
 
