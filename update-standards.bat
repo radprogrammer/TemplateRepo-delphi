@@ -9,7 +9,8 @@ echo Files in .delphi:
 dir .delphi /b
 
 echo.
-echo Review the changelogs before proceeding:
+echo Review the changes before proceeding:
+echo   .delphi\CHANGELOG.md
 echo   .delphi\style-guide.md
 echo   .delphi\code-formatting-guide.md
 echo.
