@@ -15,7 +15,8 @@ echo   .delphi\code-formatting-guide.md
 echo.
 pause
 
-git commit -a -m "Update .delphi submodule to latest standards"
+git add .gitmodules .delphi
+git commit -m "Update .delphi submodule to latest standards"
 git push
 echo.
 echo Done.
