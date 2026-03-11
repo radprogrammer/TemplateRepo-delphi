@@ -24,8 +24,10 @@ uses
   System.SysUtils,
   {$IFDEF TESTINSIGHT}
   TestInsight.DUnitX,
-  {$ELSE}
+  {$ENDIF }
+  {$IFNDEF TESTINSIGHT}
   DUnitX.Loggers.Console,
+  DUnitX.Loggers.Xml.NUnit,
   {$ENDIF }
   DUnitX.TestFramework,
   ConsoleProject.SmokeTest in 'ConsoleProject.SmokeTest.pas';
@@ -82,3 +84,4 @@ begin
   end;
 {$ENDIF}
 end.
+
