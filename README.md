@@ -17,9 +17,9 @@ If you just created this repo from the template, complete these steps before wri
    git submodule update --init
    ```
 3. Open `CLAUDE.md` and replace `[PROJECT NAME]` with your project name
-4. Fill in the TODO sections in `CLAUDE.md` — project overview, structure, build commands, and constraints
+4. Fill in the TODO sections in `CLAUDE.md` -- project overview, structure, build commands, and constraints
 5. Replace `[PROJECT NAME]` in this `README.md` and update the description
-6. Optionally, if using Claude Code, start Claude and it will automatically read `CLAUDE.md` and apply the Delphi coding standards from `.delphi/`
+6. Optionally, if using Claude Code, start Claude and it will automatically read `CLAUDE.md` and apply the Delphi coding standards from `submodules/delphi-project-standards/`
 
 <!-- TODO: Add any additional setup steps, e.g. installing dependencies, configuring IDE, etc. -->
 
@@ -27,13 +27,13 @@ If you just created this repo from the template, complete these steps before wri
 
 ## Getting Started
 
-**Cloning this repo directly:** Use `--recurse-submodules` to populate `.delphi/` in one step:
+**Cloning this repo directly:** Use `--recurse-submodules` to populate `submodules/delphi-project-standards/` in one step:
 
 ```bash
 git clone --recurse-submodules https://github.com/your-org/your-repo
 ```
 
-**Created a new repo from this template?** The `.delphi/` folder will exist but be empty until
+**Created a new repo from this template?** The `submodules/delphi-project-standards/` folder will exist but be empty until
 you initialize the submodule:
 
 ```bash
@@ -51,10 +51,10 @@ git submodule update --init
 ## Claude Code
 
 This repository includes Claude Code support via `CLAUDE.md`. The Delphi coding standards
-and formatting rules are maintained in a versioned submodule at `.delphi/`:
+and formatting rules are maintained in a versioned submodule at `submodules/delphi-project-standards/`:
 
-- `.delphi/style-guide.md` — naming conventions, code rules, file layout
-- `.delphi/code-formatting-guide.md` — indentation, spacing, line breaks
+- `submodules/delphi-project-standards/style-guide.md` - naming conventions, code rules, file layout
+- `submodules/delphi-project-standards/code-formatting-guide.md` -- indentation, spacing, line breaks
 
 To update to the latest standards, run `update-standards.bat`, or run
 the following commands directly from the command line:
@@ -64,8 +64,8 @@ git commit -a -m "Update .delphi submodule to latest standards"
 git push
 ```
 
-Review the changelogs in `.delphi/style-guide.md` and `.delphi/code-formatting-guide.md`
-before confirming the update — the batch file pauses for this before committing.
+Review the changelogs in `submodules/delphi-project-standards/style-guide.md` and `submodules/delphi-project-standards/code-formatting-guide.md`
+before confirming the update -- the batch file pauses for this before committing.
 
 ## Contributing
 

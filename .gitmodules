@@ -1,3 +1,3 @@
-[submodule ".delphi"]
-	path = .delphi
+[submodule "submodules/delphi-project-standards"]
+	path = submodules/delphi-project-standards
 	url = https://github.com/radprogrammer/delphi-project-standards
