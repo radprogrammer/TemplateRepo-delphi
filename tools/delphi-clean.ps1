@@ -13,16 +13,16 @@ Supports three cleanup profiles:
   full  - aggressive cleanup including user-local IDE state files
 
 .EXAMPLE
-pwsh -File .\delphi-cleanup.ps1
+pwsh -File .\delphi-clean.ps1
 
 .EXAMPLE
-pwsh -File .\delphi-cleanup.ps1 -Profile build
+pwsh -File .\delphi-clean.ps1 -Profile build
 
 .EXAMPLE
-pwsh -File .\delphi-cleanup.ps1 -Profile full -Verbose
+pwsh -File .\delphi-clean.ps1 -Profile full -Verbose
 
 .EXAMPLE
-pwsh -File .\delphi-cleanup.ps1 -Profile full -WhatIf
+pwsh -File .\delphi-clean.ps1 -Profile full -WhatIf
 #>
 
 [CmdletBinding(SupportsShouldProcess)]
